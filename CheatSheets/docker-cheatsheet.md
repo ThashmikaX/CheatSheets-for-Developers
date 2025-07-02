@@ -52,9 +52,10 @@ created: 2022-10-22
 
 ## Manage Compose
 
-| Command                                | Description                              |
-| -------------------------------------- | ---------------------------------------- |
-| `docker compose ls`                            | Show a list of running compose        |
+| Command                                   | Description                              |
+| --------------------------------------    | ---------------------------------------- |
+| `docker compose ls`                       | Show a list of running compose           |
+| `docker compose up -d --force-recreate`   | Down and again up existing containers    |
 
 **[🔼Back to Top](#table-of-contents)**
 
