@@ -50,6 +50,14 @@ created: 2022-10-22
 
 **[🔼Back to Top](#table-of-contents)**
 
+## Manage Compose
+
+| Command                                | Description                              |
+| -------------------------------------- | ---------------------------------------- |
+| `docker compose ls`                            | Show a list of running compose        |
+
+**[🔼Back to Top](#table-of-contents)**
+
 ## Manage Images
 
 | Command                           | Description                              |
