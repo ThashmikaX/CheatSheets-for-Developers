@@ -142,6 +142,8 @@ created: 2022-10-21
 | `fdisk -l` | Display disks partitions sizes and types|
 | `du -ah` | Display disk usage for all files and directories in human readable format|
 | `du -sh` | Display total disk usage off the current directory|
+| `sudo apt-get install ncdu` | Install text based storage vizualizer|
+| `sudo ncdu /` | Vizualize storage|
 
 **[🔼Back to Top](#table-of-contents)**
 
