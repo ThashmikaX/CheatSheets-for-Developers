@@ -9,6 +9,7 @@ created: 2022-10-22
 - [Docker CheatSheet for Developers](#docker-cheatsheet-for-developers)
   - [Run a New Container](#run-a-new-container) 
   - [Manage Containers](#manage-containers)
+  - [Manage Compose](#manage-compose)
   - [Manage Images](#manage-images)
   - [Manage System](#manage-system)
   - [Info and Stats](#info-and-stats)
@@ -54,6 +55,7 @@ created: 2022-10-22
 
 | Command                                   | Description                              |
 | --------------------------------------    | ---------------------------------------- |
+| `docker compose build --no-cache`         | Build docker compose with no-cache       |
 | `docker compose ls`                       | Show a list of running compose           |
 | `docker compose up -d --force-recreate`   | Down and again up existing compose       |
 | `docker compose -p <project_name> down`   | Down compose from any directory          |
