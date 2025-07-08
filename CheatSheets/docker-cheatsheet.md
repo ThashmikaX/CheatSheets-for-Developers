@@ -53,12 +53,13 @@ created: 2022-10-22
 
 ## Manage Compose
 
-| Command                                   | Description                              |
-| --------------------------------------    | ---------------------------------------- |
-| `docker compose build --no-cache`         | Build docker compose with no-cache       |
-| `docker compose ls`                       | Show a list of running compose           |
-| `docker compose up -d --force-recreate`   | Down and again up existing compose       |
-| `docker compose -p <project_name> down`   | Down compose from any directory          |
+| Command                                                                     | Description                              |
+| --------------------------------------                                      | ---------------------------------------- |
+| `docker compose build --no-cache`                                           | Build docker compose with no-cache       |
+| `docker compose ls`                                                         | Show a list of running compose           |
+| `docker compose up -d --force-recreate`                                     | Down and again up existing compose       |
+| `docker compose -p <project_name> down`                                     | Down compose from any directory          |
+| `docker-compose -f docker-compose.yml -f docker-compose.traefik.yml up -d`  | Up docker compose with custom overide file(default overide will not effect) |         |
 
 **[🔼Back to Top](#table-of-contents)**
 
