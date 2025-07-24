@@ -58,6 +58,7 @@ created: 2022-10-22
 | `docker compose build --no-cache`                                           | Build docker compose with no-cache       |
 | `docker compose ls`                                                         | Show a list of running compose           |
 | `docker compose up -d --force-recreate`                                     | Down and again up existing compose       |
+| `docker-compose --env-file .env.server --env-file .env up -d --build`                                     | Up docker compose with env file       |
 | `docker compose -p <project_name> down`                                     | Down compose from any directory          |
 | `docker-compose -f docker-compose.yml -f docker-compose.traefik.yml up -d`  | Up docker compose with custom overide file(default overide will not effect) |         |
 
