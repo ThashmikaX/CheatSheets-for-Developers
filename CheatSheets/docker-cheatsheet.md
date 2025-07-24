@@ -88,6 +88,7 @@ created: 2022-10-22
 | `docker system prune --all --force` | Removes everything that is not in use  |
 | `docker builder prune` | Removes build cache  |
 | `docker container prune` | Remove stopped containers  |
+| `docker network create traefik-public` | Create docker network named "traefik-public"  |
 
 **[🔼Back to Top](#table-of-contents)**
 
