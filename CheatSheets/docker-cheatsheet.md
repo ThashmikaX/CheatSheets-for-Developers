@@ -90,6 +90,7 @@ created: 2022-10-22
 | `docker builder prune` | Removes build cache  |
 | `docker container prune` | Remove stopped containers  |
 | `docker network create traefik-public` | Create docker network named "traefik-public"  |
+| `docker network rm <network_name_or_id>` | Remove docker network |
 
 **[🔼Back to Top](#table-of-contents)**
 
