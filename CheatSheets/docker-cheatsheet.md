@@ -84,13 +84,15 @@ created: 2022-10-22
 
 ## Manage System
 
-| Command                           | Description                              |
-| --------------------------------- | ---------------------------------------- |
-| `docker system prune --all --force` | Removes everything that is not in use  |
-| `docker builder prune` | Removes build cache  |
-| `docker container prune` | Remove stopped containers  |
-| `docker network create traefik-public` | Create docker network named "traefik-public"  |
-| `docker network rm <network_name_or_id>` | Remove docker network |
+| Command | Description |
+| ------- | ----------- |
+| `docker system prune --all --force` | Removes everything that is not in use |
+| `docker builder prune` | Removes build cache |
+| `docker container prune` | Removes stopped containers |
+| `docker network create traefik-public` | Creates a Docker network named **traefik-public** |
+| `docker network rm <network_name_or_id>` | Removes a Docker network |
+| `sudo systemctl stop docker && sudo rm -rf /var/lib/docker/* && sudo systemctl start docker` | Performs a **clean reset** of Docker (⚠ removes everything) |
+
 
 **[🔼Back to Top](#table-of-contents)**
 
