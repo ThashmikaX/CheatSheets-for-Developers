@@ -177,6 +177,8 @@ created: 2022-10-18
 | `git reset --soft "commit-hash"` | Take my changes and go back/kill the commit I made but the file will be staged with the change ready to be committed again |
 | `git reset --mixed "commit-hash"` | Return/Kill the commit too but it returns the files to before staged i.e. modified but it will still return |
 | `git reset --hard "commit-hash"` | It will simply ignore the existence of this commit and undo everything that was done in this commit. <br /> It is a very rough reset and is normally used before pushing your commit to the remote repository. |
+| `git reset --hard HEAD~1
+git push --force"` | If you already pushed and want to rewrite history |
 
 **[🔼Back to Top](#table-of-contents)**
 
