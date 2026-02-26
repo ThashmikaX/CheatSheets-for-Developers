@@ -35,6 +35,13 @@ created: 2022-10-18
 | `git config --global core.editor vim` | Configure editor | 
 | `git config user.name` | List username | 
 | `git config user.email` | List email | 
+| `git config --local user.name "Your Name"` | Configure username for current repository |
+| `git config --global init.defaultBranch main` | Set default branch name |
+| `git config --global color.ui auto` | Enable colored output |
+| `git config --global --unset user.name` | Remove a Configuration |
+| `git config --global --edit` | Open global config file |
+| `git config --global --list --show-origin` | Check Git Config File Location |
+
 
 **[🔼Back to Top](#table-of-contents)**
 
